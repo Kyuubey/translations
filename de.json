@@ -92,5 +92,8 @@
     "search": {
         "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
         "guild_not_found": "Sorry **{{username}}**, I couldn't find that guild!"
+    },
+    "logs": {
+        "logs_success": "Here are the logs: {{url}}"
     }
 }
