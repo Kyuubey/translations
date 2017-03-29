@@ -1,1 +1,96 @@
-
+{
+    "commands": {
+        "help_message": "／ **{{username}}** 人◕ ‿‿ ◕人 Controleer je dm's ＼ ",
+        "wrong_usage": "Sorry **{{username}}**, dat is de verkeerde gebruikswijze. `{{usage}}`"
+    },
+    "guild": {
+        "guild": "Server",
+        "guilds": "Servers",
+        "user": "Gebruiker",
+        "users": "Gebruikers",
+        "icon": "Icoon",
+        "icons": "Iconen"
+    },
+    "permissions": {
+        "user_lack_perms": "Sorry **{{username}}**, je hebt niet de `{{permission}}` permissie.",
+        "kyubey_lack_perms": "Sorry **{{username}}**, ik heb niet de `{{permission}}` permissie."
+    },
+    "user": {
+        "member": "Lid",
+        "members": "Leden",
+        "avatar": "Profielafbeelding",
+        "avatars": "Profielafbeeldingen"
+    },
+    "role": {
+        "role": "Rol",
+        "roles": "Rollen"
+    },
+    "error": {
+        "error": "Oh nee! Er ging iets fout! ```diff\n- {{error}}\n```",
+        "join_voice_channel_error": "Oh no! An error occurred while trying to join the voicechannel! ```diff\n- {{error}}\n```"
+    },
+    "channel": {
+        "channel": "Kanaal",
+        "textchannel": "Tekstkanaal",
+        "voicechannel": "Spraakkanaal"
+    },
+    "info": {
+        "channels": "Kanalen",
+        "textchannels": "Tekstkanalen",
+        "voicechannels": "Spraakkanalen",
+        "info": "Informatie",
+        "user_avatar": "{{username}}'s avatar",
+        "guild_created": "",
+        "user_created": ""
+    },
+    "language": {
+        "language": "Taal",
+        "languages": "Talen"
+    },
+    "translations": {
+        "list_languages": "Lijst met beschikbare talen:\n```fix\n{{translations}}\n```",
+        "invalid_language": "**{{language}}** is geen correcte taal, voor een lijst met talen gebruik `{{prefix}}language list`",
+        "language_set": "Taal veranderd naar **{{language}}**",
+        "language_check": "Je taal staat op: **{{language}}**"
+    },
+    "settings": {
+        "setting_enable_success": "🔓 **{{setting}}** aangezet",
+        "setting_enable_fail": "🚫 **{{setting}}** staat al aan!",
+        "prefix_change_success": "🔧 Prefix naar **{{custom_prefix}}** gezet",
+        "prefix_change_fail": "🚫 Voorvoegsel niet gespecificeerd",
+        "prefix_remove_success": "🔧 Voorvoegsel successvol verwijderd",
+        "prefix_remove_fail": "🚫 This server hasn't got a custom prefix yet!",
+        "setting_disable_success": "🔒 **{{setting}}** uitgezet",
+        "setting_disable_fail": "🚫 **{{setting}}** staat al uit!",
+        "enable_here_success": "🔓 **{{setting}}** hier aangezet",
+        "enable_here_fail": "🚫 **{{setting}}** staat hier al aan!",
+        "disable_here_success": "🔒 **{{setting}}** hier uitgezet",
+        "disable_here_fail": "🚫 **{{setting}}** staat hier al uit",
+        "log_channel_set_succes": "🛠 Log kanaal naar **{{channel}}** gezet",
+        "log_channel_set_fail": "🚫 Je kan het standaard kanaal niet als log kanaal instellen",
+        "prefix_check": "Server prefix is set to `{{custom_prefix}}`",
+        "prefix_default": "Server hasn't got a custom prefix!"
+    },
+    "music": {
+        "now_playing": "Nu aan het spelen:",
+        "requested_by": "Aangevraagd door",
+        "finished_playing": "Finished playing **{{song_title}}**",
+        "already_playing": "I'm already playing music here!",
+        "queue_empty": "De wachtrij is leeg!",
+        "voteskip_success": "Genoeg stemmen, nummer overgeslagen",
+        "song_stop_success": "**{{user}}** heeft de muziek gestopt",
+        "song_stop_fail": "Je kan de muziek niet stoppen!",
+        "queue": "Wachtrij",
+        "video_search_fail": "Sorry **{{user}}**, I kon geen videos vinden voor `{{search}}`",
+        "queue_more_songs": "En nog {{number}} andere nummers!",
+        "queue_add_fail": "Failed to add {{song_title}}",
+        "queue_clear_success": "Wachtrij leeggemaakt",
+        "voteskip_add_success": "Je voteskip is toegevoegd, `{{votes}}` stemmen, `{{total_votes}}` nodig",
+        "source_not_supported": "Sorry **{{username}}**, I don't support playing music from that site (yet?)!"
+    },
+    "join_voice_channel_fail": "Failed to join voice channel",
+    "search": {
+        "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
+        "guild_not_found": "Sorry **{{username}}**, I couldn't find that guild!"
+    }
+}
