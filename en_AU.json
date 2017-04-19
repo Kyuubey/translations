@@ -1,7 +1,10 @@
 {
     "commands": {
         "help_message": "\n ／ **{{username}}** 人◕ ‿‿ ◕人 Check your dm's ＼ ",
-        "wrong_usage": "Sorry mate **{{username}}**, that's the wrong usage. {{usage}} "
+        "wrong_usage": "Sorry mate **{{username}}**, that's the wrong usage. {{usage}} ",
+        "cooldown": "Sorry **{{username}}**, but you need to wait {{time}} second(s) before you can use this command again!",
+        "argument_not_specified": "Sorry **{{username}}**, argument `{{argument}}` is required but you didn't specify it",
+        "nsfw_not_enabled": "Sorry **{{username}}**, NSFW is not enabled in this channel!\nAsk someone with `manageGuild` permissions to enable it here. (`{{prefix}}settings enable nsfw here`)"
     },
     "guild": {
         "guild": "Server",
@@ -77,6 +80,7 @@
         "finished_playing": "Finished playing **{{song_title}}**",
         "already_playing": "I'm already playing music here!",
         "queue_empty": "The queue is empty!",
+        "join_voice_channel_fail": "Failed to join voice channel",
         "voteskip_success": "Enough votes, skipped current song",
         "song_stop_success": "**{{user}}** stopped the music",
         "song_stop_fail": "You can't stop the music!",
@@ -88,7 +92,6 @@
         "voteskip_add_success": "Added your vote to skip. `{{votes}}` votes, `{{total_votes}}` needed",
         "source_not_supported": "Sorry **{{username}}**, I don't support playing music from that site (yet?)!"
     },
-    "join_voice_channel_fail": "Failed to join voice channel",
     "search": {
         "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
         "guild_not_found": "Sorry **{{username}}**, I couldn't find that guild!"
