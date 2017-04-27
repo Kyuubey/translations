@@ -55,7 +55,8 @@
         "list_languages": "Lista de idiomas disponible:\n```fix\n{{translations}}\n```",
         "invalid_language": " **{{language}}** no es un idioma valiado, por el lista de idiomas, hace `{{prefix}}language list`",
         "language_set": "Idioma cambiado a **{{language}}**",
-        "language_check": "Tu idioma es **{{language}}**"
+        "language_check": "Tu idioma es **{{language}}**",
+        "language_guild_set": "Set guild language to **{{language}}**"
     },
     "settings": {
         "setting_enable_success": "🔓 Activado **{{setting}}**",
