@@ -55,7 +55,8 @@
         "list_languages": "Liste des langues disponibles:\n```fix\n{{translations}}\n```",
         "invalid_language": "**{{language}}** n'est pas une langue valide, pour une liste des langues utilisez`{{prefix}}language list`",
         "language_set": "Paramétrer votre langue en **{{language}}**",
-        "language_check": "Votre langue a été paramétrée en: **{{language}}**"
+        "language_check": "Votre langue a été paramétrée en: **{{language}}**",
+        "language_guild_set": "Set guild language to **{{language}}**"
     },
     "settings": {
         "setting_enable_success": "🔓 Enabled **{{setting}}**",
