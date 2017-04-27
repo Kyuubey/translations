@@ -1,19 +1,19 @@
 {
     "commands": {
-        "help_message": "／ **{{username}}** 人◕ ‿‿ ◕人 Check your dm's ＼",
-        "wrong_usage": "Sorry **{{username}}**, that's the wrong usage. {{usage}}",
-        "cooldown": "Sorry **{{username}}**, but you need to wait {{time}} second(s) before you can use this command again!",
-        "argument_not_specified": "Sorry **{{username}}**, argument `{{argument}}` is required but you didn't specify it",
-        "nsfw_not_enabled": "Sorry **{{username}}**, NSFW is not enabled in this channel!\nAsk someone who can edit this channel to enable it here. (https://support.discordapp.com/hc/en-us/articles/115000084051)",
-        "flag_requires_arg": "Sorry **{{username}}**, flag `{{flag}}` requires an argument but you didn't specify one!",
-        "choose": "**{{username}}**, I would go for *{{choice}}*",
-        "loli_is_illegal": "Sorry **{{username}}**, but Discord doesn't allow loli or shotacon.\n<https://discordapp.com/guidelines>\nhttps://cat.girlsare.life/c3702f.png"
+        "help_message": "／ **{{username}}** 人◕ ‿‿ ◕人 Schau mal in deine DM's ＼",
+        "wrong_usage": "Entschuldige**{{username}}**, aber so funktioniert der Befehl nicht. {{usage}}",
+        "cooldown": "Entschuldige **{{username}}**, aber du musst {{time}} Sekunde(n) warten, bevor du diesen Befehl erneut nutzen kannst!",
+        "argument_not_specified": "Entschuldige **{{username}}**, Argument`{{argument}}` ist benötigt, du hast es aber nicht angegeben!",
+        "nsfw_not_enabled": "Entschuldige **{{username}}**, NSFW ist in diesem Channel nicht aktiviert!\nFrage jemanden der dazu fähig ist, es hier zu aktivieren. (https://support.discordapp.com/hc/en-us/articles/115000084051)",
+        "flag_requires_arg": "Entschuldige **{{username}}**, Flag`{{flag}}` benötigt ein Argument, du hast aber keins angegeben!",
+        "choose": "**{{username}}**, Ich würde mich für *{{choice}}* entscheiden",
+        "loli_is_illegal": "Entschuldige **{{username}}**, aber Discord erlaubt keine Lolis/Shotas.\n<https://discordapp.com/guidelines>\nhttps://cat.girlsare.life/c3702f.png"
     },
     "guild": {
         "guild": "Server",
-        "guilds": "Servers",
+        "guilds": "Server",
         "user": "User",
-        "users": "Users",
+        "users": "User",
         "icon": "Icon",
         "icons": "Icons"
     },
@@ -22,82 +22,83 @@
         "kyubey_lack_perms": "Tut mir leid, **{{username}}**, Ich habe nicht die Erlaubnis {{permission}}"
     },
     "user": {
-        "member": "Member",
-        "members": "Members",
-        "avatar": "Avatar",
-        "avatars": "Avatars"
+        "member": "Mitglied",
+        "members": "Mitglieder",
+        "avatar": "Profilbild",
+        "avatars": "Profilbilder"
     },
     "role": {
-        "role": "Role",
-        "roles": "Roles"
+        "role": "Rolle",
+        "roles": "Rollen"
     },
     "error": {
-        "error": "Oh no! An error occured! \n```diff\n- {{error}}\n```",
-        "join_voice_channel_error": "Oh no! An error occurred while trying to join the voicechannel! ```diff\n- {{error}}\n```"
+        "error": "Oh nein! Ein Fehler ist aufgetreten!\n```diff\n- {{error}}\n```",
+        "join_voice_channel_error": "Oh nein! Ein Fehler ist aufgetreten beim Versuch deinem Sprachchannel beizutretren!\n```diff\n- {{error}}\n```"
     },
     "channel": {
         "channel": "Channel",
-        "textchannel": "Text channel",
-        "voicechannel": "Voicechannel"
+        "textchannel": "Text Channel",
+        "voicechannel": "Sprach Channel"
     },
     "info": {
-        "channels": "Channels",
-        "textchannels": "Text channels",
-        "voicechannels": "Voicechannels",
+        "channels": "Channel",
+        "textchannels": "Text Channel",
+        "voicechannels": "Sprach Channel",
         "info": "Info",
-        "user_avatar": "{{username}}'s avatar"
+        "user_avatar": "{{username}}'s Avatar"
     },
     "language": {
         "language": "Sprache",
         "languages": "Sprachen"
     },
     "translations": {
-        "list_languages": "List of languages available:\n```fix\n{{translations}}\n```",
-        "invalid_language": "**{{language}}** is not a valid language, for a list of languages use `{{prefix}}language list`",
-        "language_set": "Set your language to **{{language}}**",
-        "language_check": "Your language is set to: **{{language}}**"
+        "list_languages": "Liste der verfügbaren Sprachen:\n```fix\n{{translations}}\n```",
+        "invalid_language": "**{{language}}** ist keine gültige Sprache, um eine Liste der verfügbaren Sprachen zu erhalten, benutze `{{prefix}}language list`",
+        "language_set": "Deine Spracheinstellung wurde auf **{{language}}** gesetzt.",
+        "language_check": "Deine Spracheinstellung wurde auf **{{language}}** gesetzt.",
+        "language_guild_set": "Set guild language to **{{language}}**"
     },
     "settings": {
-        "setting_enable_success": "🔓 Enabled **{{setting}}**",
-        "setting_enable_fail": "🚫 **{{setting}}** already enabled!",
-        "prefix_change_success": "🔧 Set prefix to `{{custom_prefix}}`",
-        "prefix_change_fail": "🚫 Prefix not specified!",
-        "prefix_remove_success": "🔧 Succesfully removed prefix!",
-        "prefix_remove_fail": "🚫 This server hasn't got a custom prefix yet!",
-        "setting_disable_success": "🔒 Disabled **{{setting}}**",
-        "setting_disable_fail": "🚫 **{{setting}}** already disabled!",
-        "enable_here_success": "🔓 Enabled **{{setting}}** here",
-        "enable_here_fail": "🚫 **{{setting}}** already enabled here!",
-        "disable_here_success": "🔒 Disabled **{{setting}}** here",
-        "disable_here_fail": "🚫 **{{setting}}** already disabled here!",
-        "log_channel_set_succes": "🛠 Log channel set to **{{channel}}**",
-        "log_channel_set_fail": "🚫 You can't set the default channel as log channel!",
-        "prefix_check": "Server prefix is set to `{{custom_prefix}}`",
-        "prefix_default": "Server hasn't got a custom prefix!"
+        "setting_enable_success": "🔓 **{{setting}}** aktiviert.",
+        "setting_enable_fail": "🚫 **{{setting}}** ist bereits aktiviert!",
+        "prefix_change_success": "🔧 Prefix gesetzt auf `{{custom_prefix}}`",
+        "prefix_change_fail": "🚫 Kein Prefix angegeben!",
+        "prefix_remove_success": "🔧 Prefix erfolgreich entfernt!",
+        "prefix_remove_fail": "🚫 Dieser Server hat bisher kein benutzerdefiniertes Prefix!",
+        "setting_disable_success": "🔓 **{{setting}}** deaktiviert.",
+        "setting_disable_fail": "🚫 **{{setting}}** ist bereits deaktiviert!",
+        "enable_here_success": "🔓 **{{setting}}** wurde hier aktiviert.",
+        "enable_here_fail": "🚫 **{{setting}}** wurde hier bereits aktiviert.",
+        "disable_here_success": "🔒 **{{setting}}** wurde hier deaktiviert.",
+        "disable_here_fail": "🚫 **{{setting}}** wurde hier bereits deaktiviert.",
+        "log_channel_set_succes": "🛠 Log Channel eingestellt auf **{{channel}}**",
+        "log_channel_set_fail": "🚫 Du kannst aus dem Standard Channel keinen Log Channel machen!",
+        "prefix_check": "Server Prefix wurde auf `{{custom_prefix}}` gesetzt.",
+        "prefix_default": "Dieser Server hat kein benutzerdefiniertes Prefix!"
     },
     "music": {
-        "now_playing": "Now playing:",
-        "requested_by": "Requested by",
-        "finished_playing": "Finished playing **{{song_title}}**",
-        "already_playing": "I'm already playing music here!",
-        "queue_empty": "The queue is empty!",
-        "join_voice_channel_fail": "Failed to join voice channel",
-        "voteskip_success": "Enough votes, skipped current song",
-        "song_stop_success": "**{{user}}** stopped the music",
-        "song_stop_fail": "You can't stop the music!",
-        "queue": "Queue",
-        "video_search_fail": "Sorry **{{user}}**, I couldn't find any videos matching `{{search}}`",
-        "queue_more_songs": "And {{number}} more songs!",
-        "queue_add_fail": "Failed to add {{song_title}}",
-        "queue_clear_success": "Cleared the queue",
-        "voteskip_add_success": "Added your vote to skip. `{{votes}}` votes, `{{total_votes}}` needed",
-        "source_not_supported": "Sorry **{{username}}**, I don't support playing music from that site (yet?)!"
+        "now_playing": "Jetzt spielt:",
+        "requested_by": "Angefordert von:",
+        "finished_playing": "**{{song_title}}** ist nun zu Ende",
+        "already_playing": "Ich spiele bereits Musik!",
+        "queue_empty": "Die Warteschlage ist leer!",
+        "join_voice_channel_fail": "Sprachkanal konnte nicht betreten werden!",
+        "voteskip_success": "Es wurden genug Stimmen erreicht, aktueller Song wurde übersprungen",
+        "song_stop_success": "**{{user}}** hat die Musik gestoppt",
+        "song_stop_fail": "Du kannst die Musik nicht stoppen!",
+        "queue": "Warteschlange",
+        "video_search_fail": "Entschuldige **{{user}}**, Ich konnte keine Videos finden welche deiner Suchanfrage`{{search}}` entsprechen",
+        "queue_more_songs": "Und {{number}} Songs mehr!",
+        "queue_add_fail": "{{song_title}} konnte nicht hinzugefügt werden",
+        "queue_clear_success": "Warteschlange geleert",
+        "voteskip_add_success": "Deine Stimme wurde hinzugefügt,  `{{votes}}` Stimmen, `{{total_votes}}` benötigt",
+        "source_not_supported": "Entschuldige **{{username}}**, Musik von dieser Seite abzuspielen wird (noch) nicht unterstützt!"
     },
     "search": {
-        "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
-        "guild_not_found": "Sorry **{{username}}**, I couldn't find that guild!"
+        "user_not_found": "Entschuldige **{{username}}**, Ich konnte diesen Nutzer nicht finden!",
+        "guild_not_found": "Entschuldige **{{username}}**, Ich konnte diesen Server nicht finden!"
     },
     "logs": {
-        "logs_success": "Here are the logs: {{url}}"
+        "logs_success": "Hier sind die Logs: {{url}}"
     }
 }
