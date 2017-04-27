@@ -53,9 +53,10 @@
     },
     "translations": {
         "list_languages": "List of languages available:\n```fix\n{{translations}}\n```",
-        "invalid_language": "**{{language}}** is not a valid language, for a list of languages use `{{prefix}}language list`",
+        "invalid_language": "**{{language}}** is not a valid language, for a list of languages use `{{prefix}}locale list`",
         "language_set": "Set your language to **{{language}}**",
-        "language_check": "Your language is set to: **{{language}}**"
+        "language_check": "Your language is set to: **{{language}}**",
+        "language_guild_set": "Set guild language to **{{language}}**"
     },
     "settings": {
         "setting_enable_success": "🔓 Enabled **{{setting}}**",
