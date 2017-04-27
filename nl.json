@@ -55,7 +55,8 @@
         "list_languages": "Lijst met beschikbare talen:\n```fix\n{{translations}}\n```",
         "invalid_language": "**{{language}}** is geen correcte taal, voor een lijst met talen gebruik `{{prefix}}language list`",
         "language_set": "Taal veranderd naar **{{language}}**",
-        "language_check": "Je taal staat op: **{{language}}**"
+        "language_check": "Je taal staat op: **{{language}}**",
+        "language_guild_set": "Set guild language to **{{language}}**"
     },
     "settings": {
         "setting_enable_success": "🔓 **{{setting}}** aangezet",
