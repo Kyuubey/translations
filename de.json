@@ -7,7 +7,13 @@
         "nsfw_not_enabled": "Entschuldige **{{username}}**, NSFW ist in diesem Channel nicht aktiviert!\nFrage jemanden der dazu fähig ist, es hier zu aktivieren. (https://support.discordapp.com/hc/en-us/articles/115000084051)",
         "flag_requires_arg": "Entschuldige **{{username}}**, Flag`{{flag}}` benötigt ein Argument, du hast aber keins angegeben!",
         "choose": "**{{username}}**, Ich würde mich für *{{choice}}* entscheiden",
-        "loli_is_illegal": "Entschuldige **{{username}}**, aber Discord erlaubt keine Lolis/Shotas.\n<https://discordapp.com/guidelines>\nhttps://cat.girlsare.life/c3702f.png"
+        "loli_is_illegal": "Entschuldige **{{username}}**, aber Discord erlaubt keine Lolis/Shotas.\n<https://discordapp.com/guidelines>\nhttps://cat.girlsare.life/c3702f.png",
+        "user_has_contract": "**{{username}}** you already are a magical girl!",
+        "ask_wish": "**{{username}}** what is your wish?",
+        "ask_sure_mg": "Are you sure you want to become a magical girl? [y/N]",
+        "mg_wish_granted": "**{{username}}**, your wish has been granted",
+        "mg_cancelled": "**{{username}}** come back if you've changed your mind",
+        "timed_out": "Timed out"
     },
     "guild": {
         "guild": "Server",
