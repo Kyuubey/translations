@@ -110,7 +110,10 @@
         "sources": "Sources which I can play from:",
         "request_source": "If there's a source you would like to have the bot play from, but it isn't in the list, you can always make a suggestion for it in my support server!",
         "not_playing": "I'm not playing music here!",
-        "paused": "Paused current song"
+        "paused": "Paused current song",
+        "too_loud": "Woah! Don't you think thats a bit too loud?",
+        "cant_hear": "*turns volume back up*",
+        "volume_changed": "[{{volume}}]%"
     },
     "search": {
         "user_not_found": "Entschuldige **{{username}}**, Ich konnte diesen Nutzer nicht finden!",
