@@ -8,12 +8,12 @@
         "flag_requires_arg": "Entschuldige **{{username}}**, Flag`{{flag}}` benötigt ein Argument, du hast aber keins angegeben!",
         "choose": "**{{username}}**, Ich würde mich für *{{choice}}* entscheiden",
         "loli_is_illegal": "Entschuldige **{{username}}**, aber Discord erlaubt keine Lolis/Shotas.\n<https://discordapp.com/guidelines>\nhttps://cat.girlsare.life/c3702f.png",
-        "user_has_contract": "**{{username}}** you already are a magical girl!",
-        "ask_wish": "**{{username}}** what is your wish?",
-        "ask_sure_mg": "Are you sure you want to become a magical girl? [y/N]",
-        "mg_wish_granted": "**{{username}}**, your wish has been granted",
-        "mg_cancelled": "**{{username}}** come back if you've changed your mind",
-        "timed_out": "Timed out"
+        "user_has_contract": "**{{username}}**du bist bereits ein magisches Mädchen!",
+        "ask_wish": "**{{username}}** was ist dein Wunsch?",
+        "ask_sure_mg": "Bist du dir sicher, dass du ein magisches Mädchen werden möchtest? [y/N]",
+        "mg_wish_granted": "**{{username}}**, dein Wunsch wurde erfüllt",
+        "mg_cancelled": "**{{username}}** komm zurück wenn sich deine Meinung geändert hat",
+        "timed_out": "Timeout"
     },
     "guild": {
         "guild": "Server",
@@ -62,7 +62,7 @@
         "invalid_language": "**{{language}}** ist keine gültige Sprache, um eine Liste der verfügbaren Sprachen zu erhalten, benutze `{{prefix}}language list`",
         "language_set": "Deine Spracheinstellung wurde auf **{{language}}** gesetzt.",
         "language_check": "Deine Spracheinstellung wurde auf **{{language}}** gesetzt.",
-        "language_guild_set": "Set guild language to **{{language}}**"
+        "language_guild_set": "Server sprache wurde auf **{{language}}** eingestellt."
     },
     "settings": {
         "setting_enable_success": "🔓 **{{setting}}** aktiviert.",
@@ -98,7 +98,14 @@
         "queue_add_fail": "{{song_title}} konnte nicht hinzugefügt werden",
         "queue_clear_success": "Warteschlange geleert",
         "voteskip_add_success": "Deine Stimme wurde hinzugefügt,  `{{votes}}` Stimmen, `{{total_votes}}` benötigt",
-        "source_not_supported": "Entschuldige **{{username}}**, Musik von dieser Seite abzuspielen wird (noch) nicht unterstützt!"
+        "source_not_supported": "Entschuldige **{{username}}**, Musik von dieser Seite abzuspielen wird (noch) nicht unterstützt!",
+        "playlist_non_premium": "Sorry **{{username}}**, but adding a playlist with more than 20 songs is a premium feature! I'll be adding the first 20 songs instead of whole playlist/album. (for more info on premium features, use `{{prefix}}premium`)",
+        "playlist_finish": "Finished downloading playlist.",
+        "downloading_song": "Downloading {{title}} {{progress}}",
+        "finish_downloading": "Finished downloading {{title}}",
+        "song_is_stream": "HTTP Stream detected, don't need to download this.",
+        "downloading_from_deezer": "Downloading {{title}} from Deezer...",
+        "twitch_no_audio_format": "Couldn't find Audio Only format for this stream!"
     },
     "search": {
         "user_not_found": "Entschuldige **{{username}}**, Ich konnte diesen Nutzer nicht finden!",
