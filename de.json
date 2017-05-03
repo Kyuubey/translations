@@ -1,7 +1,6 @@
 {
     "commands": {
         "help_message": "／ **{{username}}** 人◕ ‿‿ ◕人 Schau mal in deine DM's ＼",
-        "wrong_usage": "Entschuldige**{{username}}**, aber so funktioniert der Befehl nicht. {{usage}}",
         "cooldown": "Entschuldige **{{username}}**, aber du musst {{time}} Sekunde(n) warten, bevor du diesen Befehl erneut nutzen kannst!",
         "argument_not_specified": "Entschuldige **{{username}}**, Argument`{{argument}}` ist benötigt, du hast es aber nicht angegeben!",
         "nsfw_not_enabled": "Entschuldige **{{username}}**, NSFW ist in diesem Channel nicht aktiviert!\nFrage jemanden der dazu fähig ist, es hier zu aktivieren. (https://support.discordapp.com/hc/en-us/articles/115000084051)",
@@ -105,7 +104,10 @@
         "finish_downloading": "Finished downloading {{title}}",
         "song_is_stream": "HTTP Stream detected, don't need to download this.",
         "downloading_from_deezer": "Downloading {{title}} from Deezer...",
-        "twitch_no_audio_format": "Couldn't find Audio Only format for this stream!"
+        "twitch_no_audio_format": "Couldn't find Audio Only format for this stream!",
+        "already_downloading": "**{{username}}** please wait until the other download has finished!",
+        "sources": "Sources which I can play from:",
+        "request_source": "If there's a source you would like to have the bot play from, but it isn't in the list, you can always make a suggestion for it in my support server!"
     },
     "search": {
         "user_not_found": "Entschuldige **{{username}}**, Ich konnte diesen Nutzer nicht finden!",
