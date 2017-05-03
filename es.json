@@ -12,7 +12,8 @@
         "ask_sure_mg": "Are you sure you want to become a magical girl? [y/N]",
         "mg_wish_granted": "**{{username}}**, your wish has been granted",
         "mg_cancelled": "**{{username}}** come back if you've changed your mind",
-        "timed_out": "Timed out"
+        "timed_out": "Timed out",
+        "permium_command": "Sorry **{{username}}**, but this command is a premium-only command!\n(for more info on premium features, use {{prefix}}premium)"
     },
     "guild": {
         "guild": "Servidor",
