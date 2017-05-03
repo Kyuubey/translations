@@ -12,7 +12,8 @@
         "ask_sure_mg": "Bist du dir sicher, dass du ein magisches Mädchen werden möchtest? [y/N]",
         "mg_wish_granted": "**{{username}}**, dein Wunsch wurde erfüllt",
         "mg_cancelled": "**{{username}}** komm zurück wenn sich deine Meinung geändert hat",
-        "timed_out": "Timeout"
+        "timed_out": "Timeout",
+        "permium_command": "Sorry **{{username}}**, but this command is a premium-only command!\n(for more info on premium features, use {{prefix}}premium)"
     },
     "guild": {
         "guild": "Server",
