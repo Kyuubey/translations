@@ -1,7 +1,6 @@
 {
     "commands": {
         "help_message": "／ **{{username}}** 人◕ ‿‿ ◕人 Check tes mp's ＼ ",
-        "wrong_usage": "Sorry **{{username}}**, that's the wrong usage. {{usage}}",
         "cooldown": "Sorry **{{username}}**, but you need to wait {{time}} second(s) before you can use this command again!",
         "argument_not_specified": "Sorry **{{username}}**, argument `{{argument}}` is required but you didn't specify it",
         "nsfw_not_enabled": "Sorry **{{username}}**, NSFW is not enabled in this channel!\nAsk someone who can edit this channel to enable it here. (https://support.discordapp.com/hc/en-us/articles/115000084051)",
@@ -105,7 +104,10 @@
         "finish_downloading": "Finished downloading {{title}}",
         "song_is_stream": "HTTP Stream detected, don't need to download this.",
         "downloading_from_deezer": "Downloading {{title}} from Deezer...",
-        "twitch_no_audio_format": "Couldn't find Audio Only format for this stream!"
+        "twitch_no_audio_format": "Couldn't find Audio Only format for this stream!",
+        "already_downloading": "**{{username}}** please wait until the other download has finished!",
+        "sources": "Sources which I can play from:",
+        "request_source": "If there's a source you would like to have the bot play from, but it isn't in the list, you can always make a suggestion for it in my support server!"
     },
     "search": {
         "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
