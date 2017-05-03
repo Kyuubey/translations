@@ -113,7 +113,7 @@
         "paused": "Paused current song",
         "too_loud": "Woah! Don't you think thats a bit too loud?",
         "cant_hear": "*turns volume back up*",
-        "volume_changed": "[{{volume}}]%"
+        "volume_changed": "`[{{volume}}]` {{number}}%"
     },
     "search": {
         "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
