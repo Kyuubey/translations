@@ -108,7 +108,9 @@
         "twitch_no_audio_format": "Couldn't find Audio Only format for this stream!",
         "already_downloading": "**{{username}}** please wait until the other download has finished!",
         "sources": "Sources which I can play from:",
-        "request_source": "If there's a source you would like to have the bot play from, but it isn't in the list, you can always make a suggestion for it in my support server!"
+        "request_source": "If there's a source you would like to have the bot play from, but it isn't in the list, you can always make a suggestion for it in my support server!",
+        "not_playing": "I'm not playing music here!",
+        "paused": "Paused current song"
     },
     "search": {
         "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
