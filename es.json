@@ -88,7 +88,7 @@
         "finished_playing": "terminado_jugando",
         "already_playing": "estas_jugando",
         "queue_empty": "The queue is empty!",
-        "join_voice_channel_fail": "Failed to join voice channel",
+        "join_voice_channel_fail": "**{{username}}** you aren't in a voice channel!",
         "voteskip_success": "Enough votes, skipped current song",
         "song_stop_success": "**{{user}}** stopped the music",
         "song_stop_fail": "You can't stop the music!",
@@ -98,7 +98,14 @@
         "queue_add_fail": "Failed to add {{song_title}}",
         "queue_clear_success": "Cleared the queue",
         "voteskip_add_success": "Added your vote to skip. `{{votes}}` votes, `{{total_votes}}` needed",
-        "source_not_supported": "Sorry **{{username}}**, I don't support playing music from that site (yet?)!"
+        "source_not_supported": "Sorry **{{username}}**, I don't support playing music from that site (yet?)!",
+        "playlist_non_premium": "Sorry **{{username}}**, but adding a playlist with more than 20 songs is a premium feature! I'll be adding the first 20 songs instead of whole playlist/album. (for more info on premium features, use `{{prefix}}premium`)",
+        "playlist_finish": "Finished downloading playlist.",
+        "downloading_song": "Downloading {{title}} {{progress}}",
+        "finish_downloading": "Finished downloading {{title}}",
+        "song_is_stream": "HTTP Stream detected, don't need to download this.",
+        "downloading_from_deezer": "Downloading {{title}} from Deezer...",
+        "twitch_no_audio_format": "Couldn't find Audio Only format for this stream!"
     },
     "search": {
         "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
