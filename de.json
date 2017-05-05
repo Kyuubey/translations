@@ -11,9 +11,9 @@
         "ask_wish": "**{{username}}** was ist dein Wunsch?",
         "ask_sure_mg": "Bist du dir sicher, dass du ein magisches Mädchen werden möchtest? [y/N]",
         "mg_wish_granted": "**{{username}}**, dein Wunsch wurde erfüllt",
-        "mg_cancelled": "**{{username}}** komm zurück wenn sich deine Meinung geändert hat",
+        "mg_cancelled": "**{{username}}** Komm zurück, wenn du deine Meinung geändert hast!",
         "timed_out": "Timeout",
-        "permium_command": "Sorry **{{username}}**, but this command is a premium-only command!\n(for more info on premium features, use {{prefix}}premium)"
+        "permium_command": "Entschuldigung **{{username}}**, jedoch ist dieser Befehl eine Premium-Eigenschaft. (Für mehr Infos über die Premium-Eigenschaften, benutze  {{prefix}}premium)"
     },
     "guild": {
         "guild": "Server",
@@ -38,7 +38,7 @@
         "roles": "Rollen"
     },
     "error": {
-        "error": "Oh nein! Ein Fehler ist aufgetreten!\n```diff\n- {{error}}\n```",
+        "error": "Oh nein! Ein Fehler ist aufgetreten!\n```diff\n- {{error}}\n```\n",
         "join_voice_channel_error": "Oh nein! Ein Fehler ist aufgetreten beim Versuch deinem Sprachchannel beizutretren!\n```diff\n- {{error}}\n```"
     },
     "channel": {
@@ -81,10 +81,10 @@
         "log_channel_set_fail": "🚫 Du kannst aus dem Standard Channel keinen Log Channel machen!",
         "prefix_check": "Server Prefix wurde auf `{{custom_prefix}}` gesetzt.",
         "prefix_default": "Dieser Server hat kein benutzerdefiniertes Prefix!",
-        "channel_already_ignored": "I'm already ignoring that channel!",
-        "channel_not_ignored": "I'm not ignoring that channel!",
-        "ignored_channel": "Ignoring channel..",
-        "unignored_channel": "Unignoring channel!"
+        "channel_already_ignored": "Ich tue bereits diesen Kanal ignorieren!",
+        "channel_not_ignored": "Ich ignoriere diesen Kanal nicht!",
+        "ignored_channel": "Kanal ignorieren..",
+        "unignored_channel": "Kanal unignoriert!"
     },
     "music": {
         "now_playing": "Jetzt spielt:",
@@ -103,35 +103,35 @@
         "queue_clear_success": "Warteschlange geleert",
         "voteskip_add_success": "Deine Stimme wurde hinzugefügt,  `{{votes}}` Stimmen, `{{total_votes}}` benötigt",
         "source_not_supported": "Entschuldige **{{username}}**, Musik von dieser Seite abzuspielen wird (noch) nicht unterstützt!",
-        "playlist_non_premium": "Sorry **{{username}}**, but adding a playlist with more than 20 songs is a premium feature! I'll be adding the first 20 songs instead of whole playlist/album. (for more info on premium features, use `{{prefix}}premium`)",
-        "playlist_finish": "Finished downloading playlist.",
-        "downloading_song": "Downloading {{title}} {{progress}}",
-        "finish_downloading": "Finished downloading {{title}}",
-        "song_is_stream": "HTTP Stream detected, don't need to download this.",
-        "downloading_from_deezer": "Downloading {{title}} from Deezer...",
-        "twitch_no_audio_format": "Couldn't find Audio Only format for this stream!",
-        "already_downloading": "**{{username}}** please wait until the other download has finished!",
-        "sources": "Sources which I can play from:",
-        "request_source": "If there's a source you would like to have the bot play from, but it isn't in the list, you can always make a suggestion for it in my support server!",
-        "not_playing": "I'm not playing music here!",
-        "paused": "Paused current song",
-        "too_loud": "Woah! Don't you think thats a bit too loud?",
-        "cant_hear": "*turns volume back up*",
+        "playlist_non_premium": "Entschuldigung **{{username}}**, eine Playlist hinzufügen mit über 20 Songs ist eine Premium-Eigenschaft! Ich werde die ersten 20 Songs hinzufügen, statts die ganze Playlist/Album. (Für mehr Info über die Premium-Eigenschaften, benutze `{{prefix}}premium`)",
+        "playlist_finish": "Der Playlist-Download ist fertig!",
+        "downloading_song": "Lädt runter: {{title}} {{progress}}",
+        "finish_downloading": "Der Download von {{title}} ist fertig!",
+        "song_is_stream": "HTTP Stream erkannt, Download ist unnötig.",
+        "downloading_from_deezer": "Lädt folgenden Titel von Deezer herunter: {{title}}",
+        "twitch_no_audio_format": "Konnte Audio-Format für diesen Stream nicht finden!",
+        "already_downloading": "**{{username}}**, bitte warte bis der andere Download fertig ist!",
+        "sources": "Quellen, wovon ich spielen kann:",
+        "request_source": "Wenn es eine Quelle gibt, wo du die Musik hören möchtest, aber es ist nicht in der Liste, kannst du einen Vorschlag dafür machen in meinen Support-Server!",
+        "not_playing": "Ich spiele hier keine Musik!",
+        "paused": "Aktueller Song pausiert.",
+        "too_loud": "Woah! Denkst du nicht das die Musik ein bisschen zu laut ist?",
+        "cant_hear": "*dreht die Lautstärke wieder auf*",
         "volume_changed": "Volume: `[{{volume}}]` ({{number}}%)",
-        "not_in_channel": "You aren't in a voice channel!",
-        "force_skip": "**{{username}}** force-skipped the current song!",
-        "cant_force_skip_lol": "**{{username}}**, you can't force-skip the current song!",
-        "already_voted": "You already voted to skip!",
-        "queue_shuffled": "Shuffled the queue!"
+        "not_in_channel": "Du bist in keinen Sprach-Kanal!",
+        "force_skip": "**{{username}}** hat den aktuellen Song gezwungener-maßen übersprungen!",
+        "cant_force_skip_lol": "**{{username}}**, du kannst nicht den aktuellen Song gezwungener-Maßen überspringen!",
+        "already_voted": "Du hast bereits darüber abgestimmt, was übersprungen wird!",
+        "queue_shuffled": "Die Abfragen wurden gemischt!"
     },
     "search": {
         "user_not_found": "Entschuldige **{{username}}**, Ich konnte diesen Nutzer nicht finden!",
         "guild_not_found": "Entschuldige **{{username}}**, Ich konnte diesen Server nicht finden!",
-        "anime_not_found": "Sorry **{{username}}**, I couldn't find anime matching your query!",
-        "manga_not_found": "Sorry **{{username}}**, I couldn't find manga matching your query!",
-        "choose_user": "**{{username}}**, please choose a user from the list below. (times out in 30 seconds)",
-        "choose_channel": "**{{username}}**, please choose a channel from the list below. (times out in 30 seconds)",
-        "choose_item": "**{{username}}**, please choose an item from the list below. (times out in 30 seconds)"
+        "anime_not_found": "Entschuldigung **{{username}}**, ich konnte keinen Anime finden der deiner Abfrage gleicht!",
+        "manga_not_found": "Entschuldigung  **{{username}}**, ich konnte keinen Manga finden der deiner Abfrage gleicht!",
+        "choose_user": "**{{username}}**, bitte wähle einen Benutzer von der Liste unten aus. (endet in 30 sekunden)",
+        "choose_channel": "**{{username}}**, bitte wähle einen Kanal von der Liste unten aus! (endet in 30 sekunden)",
+        "choose_item": "**{{username}}**, bitte wähle etwas von der Liste unten aus! (endet in 30 sekunden)"
     },
     "logs": {
         "logs_success": "Hier sind die Logs: {{url}}"
