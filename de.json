@@ -84,7 +84,11 @@
         "channel_already_ignored": "Ich tue bereits diesen Kanal ignorieren!",
         "channel_not_ignored": "Ich ignoriere diesen Kanal nicht!",
         "ignored_channel": "Kanal ignorieren..",
-        "unignored_channel": "Kanal unignoriert!"
+        "unignored_channel": "Kanal unignoriert!",
+        "messagelogs_enabled": "🔓 Enabled message logs!",
+        "messagelogs_disabled": "🔒 Disabled message logs!",
+        "messagelogs_aleady_enabled": "🚫 Message logs are already enabled!",
+        "messagelogs_already_disabled": "🚫 Message logs are already disabled!"
     },
     "music": {
         "now_playing": "Jetzt spielt:",
