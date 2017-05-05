@@ -90,7 +90,7 @@
         "queue_empty": "The queue is empty!",
         "join_voice_channel_fail": "**{{username}}** you aren't in a voice channel!",
         "voteskip_success": "Enough votes, skipped current song",
-        "song_stop_success": "**{{user}}** stopped the music",
+        "song_stop_success": "**{{username}}** stopped the music",
         "song_stop_fail": "You can't stop the music!",
         "queue": "Queue",
         "video_search_fail": "Sorry **{{user}}**, I couldn't find any videos matching `{{search}}`",
@@ -113,11 +113,17 @@
         "paused": "Paused current song",
         "too_loud": "Woah! Don't you think thats a bit too loud?",
         "cant_hear": "*turns volume back up*",
-        "volume_changed": "`[{{volume}}]` {{number}}%"
+        "volume_changed": "Volume: `[{{volume}}]` ({{number}}%)",
+        "not_in_channel": "You aren't in a voice channel!",
+        "force_skip": "**{{username}}** force-skipped the current song!",
+        "cant_force_skip_lol": "**{{username}}**, you can't force-skip the current song!",
+        "already_voted": "You already voted to skip!"
     },
     "search": {
         "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
-        "guild_not_found": "Sorry **{{username}}**, I couldn't find that guild!"
+        "guild_not_found": "Sorry **{{username}}**, I couldn't find that guild!",
+        "anime_not_found": "Sorry **{{username}}**, I couldn't find anime matching your query!",
+        "manga_not_found": "Sorry **{{username}}**, I couldn't find manga matching your query!"
     },
     "logs": {
         "logs_success": "Here are the logs: {{url}}"
