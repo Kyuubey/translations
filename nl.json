@@ -113,11 +113,17 @@
         "paused": "Paused current song",
         "too_loud": "Woah! Don't you think thats a bit too loud?",
         "cant_hear": "*turns volume back up*",
-        "volume_changed": "`[{{volume}}]` {{number}}%"
+        "volume_changed": "Volume: `[{{volume}}]` ({{number}}%)",
+        "not_in_channel": "You aren't in a voice channel!",
+        "force_skip": "**{{username}}** force-skipped the current song!",
+        "cant_force_skip_lol": "**{{username}}**, you can't force-skip the current song!",
+        "already_voted": "You already voted to skip!"
     },
     "search": {
         "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
-        "guild_not_found": "Sorry **{{username}}**, I couldn't find that guild!"
+        "guild_not_found": "Sorry **{{username}}**, I couldn't find that guild!",
+        "anime_not_found": "Sorry **{{username}}**, I couldn't find anime matching your query!",
+        "manga_not_found": "Sorry **{{username}}**, I couldn't find manga matching your query!"
     },
     "logs": {
         "logs_success": "Here are the logs: {{url}}"
