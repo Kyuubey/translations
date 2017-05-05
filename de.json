@@ -80,7 +80,11 @@
         "log_channel_set_succes": "🛠 Log Channel eingestellt auf **{{channel}}**",
         "log_channel_set_fail": "🚫 Du kannst aus dem Standard Channel keinen Log Channel machen!",
         "prefix_check": "Server Prefix wurde auf `{{custom_prefix}}` gesetzt.",
-        "prefix_default": "Dieser Server hat kein benutzerdefiniertes Prefix!"
+        "prefix_default": "Dieser Server hat kein benutzerdefiniertes Prefix!",
+        "channel_already_ignored": "I'm already ignoring that channel!",
+        "channel_not_ignored": "I'm not ignoring that channel!",
+        "ignored_channel": "Ignoring channel..",
+        "unignored_channel": "Unignoring channel!"
     },
     "music": {
         "now_playing": "Jetzt spielt:",
