@@ -117,7 +117,8 @@
         "not_in_channel": "You aren't in a voice channel!",
         "force_skip": "**{{username}}** force-skipped the current song!",
         "cant_force_skip_lol": "**{{username}}**, you can't force-skip the current song!",
-        "already_voted": "You already voted to skip!"
+        "already_voted": "You already voted to skip!",
+        "queue_shuffled": "Shuffled the queue!"
     },
     "search": {
         "user_not_found": "Sorry **{{username}}**, I couldn't find that user!",
