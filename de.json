@@ -51,7 +51,8 @@
         "textchannels": "Text Channel",
         "voicechannels": "Sprach Channel",
         "info": "Info",
-        "user_avatar": "{{username}}'s Avatar"
+        "user_avatar": "{{username}}'s Avatar",
+        "tags": "Tags"
     },
     "language": {
         "language": "Sprache",
@@ -135,7 +136,8 @@
         "manga_not_found": "Entschuldigung  **{{username}}**, ich konnte keinen Manga finden der deiner Abfrage gleicht!",
         "choose_user": "**{{username}}**, bitte wähle einen Benutzer von der Liste unten aus. (endet in 30 sekunden)",
         "choose_channel": "**{{username}}**, bitte wähle einen Kanal von der Liste unten aus! (endet in 30 sekunden)",
-        "choose_item": "**{{username}}**, bitte wähle etwas von der Liste unten aus! (endet in 30 sekunden)"
+        "choose_item": "**{{username}}**, bitte wähle etwas von der Liste unten aus! (endet in 30 sekunden)",
+        "no_images_found": "Sorry **{{username}}**, but I couldn't find any images matching your query!"
     },
     "logs": {
         "logs_success": "Hier sind die Logs: {{url}}"
