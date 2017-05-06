@@ -51,7 +51,8 @@
         "textchannels": "Channels Textuels",
         "voicechannels": "Channels Vocaux",
         "info": "Info",
-        "user_avatar": "Avatar de {{username}}"
+        "user_avatar": "Avatar de {{username}}",
+        "tags": "Tags"
     },
     "language": {
         "language": "Langue",
@@ -135,7 +136,8 @@
         "manga_not_found": "Sorry **{{username}}**, I couldn't find manga matching your query!",
         "choose_user": "**{{username}}**, please choose a user from the list below. (times out in 30 seconds)",
         "choose_channel": "**{{username}}**, please choose a channel from the list below. (times out in 30 seconds)",
-        "choose_item": "**{{username}}**, please choose an item from the list below. (times out in 30 seconds)"
+        "choose_item": "**{{username}}**, please choose an item from the list below. (times out in 30 seconds)",
+        "no_images_found": "Sorry **{{username}}**, but I couldn't find any images matching your query!"
     },
     "logs": {
         "logs_success": "Voici les logs: {{url}}"
