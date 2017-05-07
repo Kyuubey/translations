@@ -13,7 +13,8 @@
         "mg_wish_granted": "**{{username}}**, your wish has been granted",
         "mg_cancelled": "**{{username}}** come back if you've changed your mind",
         "timed_out": "Timed out",
-        "permium_command": "Sorry **{{username}}**, but this command is a premium-only command!\n(for more info on premium features, use {{prefix}}premium)"
+        "permium_command": "Sorry **{{username}}**, but this command is a premium-only command!\n(for more info on premium features, use {{prefix}}premium)",
+        "pruned_msgs": "Pruned `{{number}}` message(s)!"
     },
     "guild": {
         "guild": "Servidor",
@@ -25,7 +26,7 @@
     },
     "permissions": {
         "user_lack_perms": "Lo siento **{{username}}**, pero tu no tienes el permiso {{permission}}.",
-        "kyubey_lack_perms": "Sorry **{{username}}**, I don't have the {{permission}} permission."
+        "kyubey_lack_perms": "Lo siento **{{username}}**, pero yo no tienes el permiso {{permission}}."
     },
     "user": {
         "member": "Miembro",
@@ -89,7 +90,8 @@
         "messagelogs_enabled": "🔓 Enabled message logs!",
         "messagelogs_disabled": "🔒 Disabled message logs!",
         "messagelogs_aleady_enabled": "🚫 Message logs are already enabled!",
-        "messagelogs_already_disabled": "🚫 Message logs are already disabled!"
+        "messagelogs_already_disabled": "🚫 Message logs are already disabled!",
+        "set_starboard": ""
     },
     "music": {
         "now_playing": "jugando_ahora",
