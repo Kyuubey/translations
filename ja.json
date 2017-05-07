@@ -91,7 +91,7 @@
         "messagelogs_disabled": "🔒 Disabled message logs!",
         "messagelogs_aleady_enabled": "🚫 Message logs are already enabled!",
         "messagelogs_already_disabled": "🚫 Message logs are already disabled!",
-        "set_starboard": ""
+        "set_starboard": "Set starboard to {{channel}}!"
     },
     "music": {
         "now_playing": "Now playing:",
