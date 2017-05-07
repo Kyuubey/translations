@@ -13,7 +13,8 @@
         "mg_wish_granted": "**{{username}}**, dein Wunsch wurde erfüllt",
         "mg_cancelled": "**{{username}}** Komm zurück, wenn du deine Meinung geändert hast!",
         "timed_out": "Timeout",
-        "permium_command": "Entschuldigung **{{username}}**, jedoch ist dieser Befehl eine Premium-Eigenschaft. (Für mehr Infos über die Premium-Eigenschaften, benutze  {{prefix}}premium)"
+        "permium_command": "Entschuldigung **{{username}}**, jedoch ist dieser Befehl eine Premium-Eigenschaft. (Für mehr Infos über die Premium-Eigenschaften, benutze  {{prefix}}premium)",
+        "pruned_msgs": "Pruned `{{number}}` message(s)!"
     },
     "guild": {
         "guild": "Server",
@@ -89,7 +90,8 @@
         "messagelogs_enabled": "🔓 Enabled message logs!",
         "messagelogs_disabled": "🔒 Disabled message logs!",
         "messagelogs_aleady_enabled": "🚫 Message logs are already enabled!",
-        "messagelogs_already_disabled": "🚫 Message logs are already disabled!"
+        "messagelogs_already_disabled": "🚫 Message logs are already disabled!",
+        "set_starboard": ""
     },
     "music": {
         "now_playing": "Jetzt spielt:",
