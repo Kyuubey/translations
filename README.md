@@ -1,2 +1,3 @@
 # translations
-Translations for Kyubey
+
+Translations for Kyubey / the Hibiki framework.
