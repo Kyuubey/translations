@@ -25,8 +25,8 @@
         "icons": "Icons"
     },
     "permissions": {
-        "user_lack_perms": "Sorry **{{username}}**, you don't have the `{{permission}}` permission.",
-        "kyubey_lack_perms": "Sorry **{{username}}**, I don't have the {{permission}} permission."
+        "user_lack_perms": "Sorry **{{username}}**, you don't have the {{permission}} permission.",
+        "bot_lack_perms": "Sorry **{{username}}**, I don't have the {{permission}} permission."
     },
     "user": {
         "member": "Member",
@@ -143,5 +143,28 @@
     },
     "logs": {
         "logs_success": "Here are the logs: {{url}}"
+    },
+    "localized_perms": {
+        "manageGuild": "manage guild",
+        "kickMembers": "kick members",
+        "banMembers": "ban members",
+        "administrator": "administrator",
+        "manageChannels": "manage channels",
+        "addReactions": "add reactions",
+        "viewAuditLogs": "view audit log",
+        "readMessages": "read messages",
+        "sendMessages": "send messages",
+        "manageMessages": "manage messages",
+        "embedLinks": "embed links",
+        "attachFiles": "attach files",
+        "voiceConnect": "connect to voice channel",
+        "voiceSpeak": "speak in voice channel",
+        "voiceMoveMembers": "move members between voice channels",
+        "changeNickname": "change nickname",
+        "manageNicknames": "manage nicknames",
+        "manageRoles": "manage roles",
+        "manageWebhooks": "manage webhooks",
+        "manageEmojis": "manage emojis",
+        "createInstantInvite": "create instant invite"
     }
 }
